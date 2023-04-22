@@ -34,10 +34,12 @@ public class QuickCheck {
 
             if (inFile.isDirectory()) {
                 System.err.println("File is a directory");
+                continue;
             }
 
             if (!inFile.exists()) {
                 System.err.println("File does not exist");
+                continue;
             }
 
             ExecutorService service = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() / 2);
