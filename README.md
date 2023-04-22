@@ -2,6 +2,8 @@
 <b>Quickly check a file's checksum to verify if the file is valid or not!</b>
 
 # Building
+### Building requires Java 17 or higher (Java 11 is possible).
+
 Start by cloning this repository (`git clone`) or downloading it. Once done, you can build this using Gradle by `gradlew build`. 
 While building, it should also make an executable named `quickcheck.exe` under the `build` or `target` folder, if you have Launch4j installed.
 
